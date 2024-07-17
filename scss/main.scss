@@ -198,7 +198,6 @@ section {
 }
 
 .location {
-    color: $quinary-color;
     h2 {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -208,6 +207,7 @@ section {
         padding-bottom: 50px;
     }
     h3, p {
+        color: $quinary-color;
         font-size: $p-size;
     }
 }
@@ -221,5 +221,5 @@ footer {
     .social-media {
         @include flexCenter(row, center, center);
         gap: 40px;
-    }
+    };
 }
